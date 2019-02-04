@@ -1,6 +1,6 @@
 # pybench
 Python benchmark application to compare multiprocessing and threading libraries
-
+```
 $ ./pybench.py --help
 usage: pybench.py [-h] (-t | -p) -w WORKERS [-s WORK_SIZE] [-m MAX_TIME]
 
@@ -14,7 +14,7 @@ optional arguments:
                         work size
   -m MAX_TIME, --max-time MAX_TIME
                         exit after MAX_TIME seconds
----
+```
 
 A few examples of how to invoke it:
 
